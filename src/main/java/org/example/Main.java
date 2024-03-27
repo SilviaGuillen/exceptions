@@ -9,6 +9,7 @@ public class Main {
         Student newStudent = Student.builder()
                 .name("Florian")
                 .subject("Geschichte")
+                .id("123456")
                 .build();
 
         Student savedStudent = studentService.addNewStudent(newStudent);
